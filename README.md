@@ -16,10 +16,10 @@ py -m venv .venv
 .venv\Scripts\activate
 ```
 
-2. Instala la dependencia principal:
+2. Instala las dependencias:
 
 ```bash
-pip install nicegui
+pip install -r requirements.txt
 ```
 
 3. Si necesitas recrear la base de datos desde cero, ejecuta:
